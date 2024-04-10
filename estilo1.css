@@ -1,17 +1,32 @@
-body {
-    background-color: bisque;
-    color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body  {
+    background-color: #DEBFD7;
+    color: #8E3178;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 h1 {
-    font-size: 40px;
+    font-size: 35px;
 }
-strong {
-    color: darkgray;
+
+.titulo-destaque {
+    color: #41A32A;
 }
 p {
     font-size: 14px;
+    margin: 25px 180px 25px 0px;
+}
+
+.texto-destaque {
+    color: #440737;
+    font-size: 25px;
 }
 a {
-    color: dodgerblue;
+    color: #392735;
+}
+img {
+    margin: 25px 0px 25px 25px;
 }
