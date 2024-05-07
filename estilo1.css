@@ -4,6 +4,8 @@
 }
 
 body  {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #DEBFD7;
     color: #8E3178;
     font-family: Verdana, Geneva, Tahoma, sans-serif
@@ -14,6 +16,10 @@ h1 {
 
 .titulo-destaque {
     color: #41A32A;
+}
+.apresentacao {
+    display: flex;
+    align-items: center;
 }
 p {
     font-size: 14px;
