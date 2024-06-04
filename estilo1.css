@@ -40,7 +40,22 @@ p {
     font-size: 14px;
     margin: 25px 180px 25px 0px;
 }
-
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao__links__link{
+    background-color: #64b353;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #440737;
+    font-family: "Montserrat", sans-serif;
+}
 .texto-destaque {
     color: #440737;
     font-size: 24px;
