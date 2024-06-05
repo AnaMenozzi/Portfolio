@@ -20,13 +20,16 @@ h1 {
     color: #41A32A;
 }
 .apresentacao {
-    margin: 10%;
+    margin: 10% 12%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .apresentacao__conteudo {
     width: 651px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .apresentacao__conteudo__titulo {
     font-size: 36px;
@@ -38,7 +41,7 @@ h1 {
 }
 p {
     font-size: 14px;
-    margin: 25px 180px 25px 0px;
+    margin: 10px 0px 10px 0px;
 }
 .apresentacao__links{
     display: flex;
