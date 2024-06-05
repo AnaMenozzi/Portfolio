@@ -45,24 +45,29 @@ p {
 }
 .apresentacao__links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 .apresentacao__links__link{
-    background-color: #64b353;
-    width: 280px;
+    /* background-color: #64b353; */
+    width: 300px;
     text-align: center;
-    border-radius: 16px;
+    border: 5px solid;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #440737;
+    color: #0f5e01;
     font-family: "Montserrat", sans-serif;
 }
-.texto-destaque {
+.apresentacao__links__subtitle {
     color: #440737;
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Krona one", sans-serif;
+    font-weight: 400;
 }
 a {
     color: #392735;
