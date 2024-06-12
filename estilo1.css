@@ -60,7 +60,7 @@ p {
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #0f5e01;
+    color: #392735;
     font-family: "Montserrat", sans-serif;
 }
 .apresentacao__links__subtitle {
@@ -71,7 +71,4 @@ p {
 }
 a {
     color: #392735;
-}
-img {
-    margin: 25px 0px 25px 25px;
 }
