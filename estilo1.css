@@ -8,8 +8,8 @@
 body  {
     height: 100vh;
     box-sizing: border-box;
-    background-color: #DEBFD7;
-    color: #8E3178;
+    background-color: #BFDEDD;
+    color: #89537C;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 h1 {
@@ -17,7 +17,7 @@ h1 {
 }
 
 .titulo-destaque {
-    color: #41A32A;
+    color: #2A5E5D;
 }
 .apresentacao {
     margin: 10% 12%;
@@ -38,6 +38,7 @@ h1 {
 .apresentacao__conteudo__texto{
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
+    color: #440737;
 }
 p {
     font-size: 14px;
@@ -60,7 +61,7 @@ p {
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #392735;
+    color: #BFDEDD;
     font-family: "Montserrat", sans-serif;
 }
 .apresentacao__links__subtitle {
