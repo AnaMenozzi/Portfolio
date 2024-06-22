@@ -6,7 +6,7 @@
 }
 
 body  {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #BFDEDD;
     color: #89537C;
@@ -20,7 +20,7 @@ h1 {
     color: #2A5E5D;
 }
 .apresentacao {
-    margin: 10% 12%;
+    padding: 8% 12%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -82,5 +82,14 @@ h1 {
     color: #440737;
     font-size: 24px;
     font-family: "Krona one", sans-serif;
+    font-weight: 400;
+}
+.rodape {
+    color: #440737;
+    background-color: #89537C;
+    padding: 24px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
     font-weight: 400;
 }
