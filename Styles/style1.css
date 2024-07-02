@@ -49,7 +49,7 @@ body  {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 82px;
 }
 .apresentacao__conteudo {
     width: 50%;
@@ -131,4 +131,11 @@ body  {
     width: 50%;
     margin: 10px;
     margin-left: 64px;
+}
+
+@media (max-width: 1185px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+
+    }
 }
