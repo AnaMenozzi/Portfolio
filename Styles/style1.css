@@ -129,8 +129,6 @@ body  {
 .perfil__ana{
     border-radius: 12px;
     width: 50%;
-    margin: 10px;
-    margin-left: 64px;
 }
 
 @media (max-width: 1185px) {
